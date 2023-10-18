@@ -1,1 +1,11 @@
 # Puppeteer
+
+**DOM:** Document Object Model, es una interfaz/modelo de documento. se representan como un arbol de nodos. LLamamos DOM a la anidacion de etiquetas que utilizamos en el documento HTML
+**CSSOM:** Llamamos CSSOM al arbol de etiquetas que utilizamos en el documeto CSS
+
+# atributos y selectores
+Cuando el navegador analiza las etiquetas y apartir de estos atributos ESTANDAR (id,class,style,title) crea propiedades del DOM, en cambio hay atibutos no estandar y estos no crean propiedades
+selectores: CSS selector: tiene el atrivuto universal (*) con este le decimos que todo lo que va a tener el dom, tipo: input este input selecciona las etiquetas que sean input, clase: .classname las mas comunes, atributo: [attr] [attr=value] [attr|=value] etc, grouping selectors: div, span, combinadores: compinador de hermanos adyacentes:h1+p combinador de hijo ul>li, Pseudo clases: a:link, Pseudo elementos: p::first-line,
+
+# Xpath selector
+![App Screenshot](Xpath%20selector.png)
