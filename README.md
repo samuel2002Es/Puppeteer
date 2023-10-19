@@ -32,10 +32,18 @@ Puppeter vs selenium
 
 # Opcioes de lanzamiento
 **Slow motion:** hace la ejecucion del test mas lento `slowMo:1000`
+
 **headless:** setear el uso de la interfaz del browser `headless: true/false`
+
 **devtools** abre el inspeccionador del browser `devtools: true/false`
+
 **defaultViewport** tamaño 
-```defaultViewport:{
+```bash
+defaultViewport:{
     width:2100,
     height: 1800
-}```
+}
+```
+```bash
+args: ['--window-size=1920,1080']
+```
