@@ -37,13 +37,15 @@ Puppeter vs selenium
 
 **devtools** abre el inspeccionador del browser `devtools: true/false`
 
-**defaultViewport** tamaño 
+**defaultViewport:** 
 ```bash
+tamaño de lo que se ve:
 defaultViewport:{
     width:2100,
     height: 1800
 }
 ```
 ```bash
+tamaño de la ventana:
 args: ['--window-size=1920,1080']
 ```
