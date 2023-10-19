@@ -29,3 +29,13 @@ Puppeter vs selenium
 - Solo ofrece soporte con Chrome y con Firefox experimental.
 - Solo soporta Node JS
 - Solo soporta automatizacion Web.
+
+# Opcioes de lanzamiento
+**Slow motion:** hace la ejecucion del test mas lento `slowMo:1000`
+**headless:** setear el uso de la interfaz del browser `headless: true/false`
+**devtools** abre el inspeccionador del browser `devtools: true/false`
+**defaultViewport** tamaño 
+```defaultViewport:{
+    width:2100,
+    height: 1800
+}```
