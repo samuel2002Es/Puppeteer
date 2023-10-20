@@ -4,7 +4,7 @@
   "description": "[![documentacion]](https://static.platzi.com/media/public/uploads/2-slides_23b1cb97-bddc-42d3-aeb1-f9134a9b9fb9.pdf)",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit"
+    "test": "jest --forceExit --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
